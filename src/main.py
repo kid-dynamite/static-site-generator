@@ -4,6 +4,7 @@ from inline_markdown import split_nodes_delimiter, split_nodes_link, split_nodes
 from markdown_blocks import markdown_to_blocks, block_to_block_type, markdown_to_html_node
 import os
 import shutil
+import sys
 
 from copystatic import copy_files_recursive
 from gencontent import generate_pages_recursive
